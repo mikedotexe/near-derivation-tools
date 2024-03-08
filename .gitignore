@@ -1,0 +1,6 @@
+.env
+node_modules
+
+# Ignore JavaScript and source map files
+src/**/*.js
+src/**/*.js.map

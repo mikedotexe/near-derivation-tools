@@ -1,0 +1,45 @@
+{
+  "name": "near-derivation-tools",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "example": "tsc",
+    "build": "tsc",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Purvis",
+  "contributors": ["Osman A."],
+  "license": "ISC",
+  "dependencies": {
+    "@ethereumjs/common": "^4.2.0",
+    "@ethereumjs/tx": "^5.2.1",
+    "@near-js/accounts": "^1.0.3",
+    "@near-js/crypto": "^1.2.1",
+    "@near-js/keystores": "^0.0.9",
+    "bn.js": "^5.2.1",
+    "bs58check": "^3.0.1",
+    "dotenv": "^16.4.5",
+    "elliptic": "^6.5.5",
+    "ethereumjs-util": "^7.1.5",
+    "ethers": "^6.11.1",
+    "hash.js": "^1.1.7",
+    "keccak": "^3.0.4",
+    "near-api-js": "^3.0.3",
+    "near-seed-phrase": "^0.2.0"
+  },
+  "devDependencies": {
+    "@types/elliptic": "^6.4.18",
+    "@types/keccak": "^3.0.4",
+    "@types/node": "^20.11.25",
+    "@typescript-eslint/eslint-plugin": "^7.1.1",
+    "@typescript-eslint/parser": "^7.1.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.0",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  }
+}
